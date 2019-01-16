@@ -4,14 +4,31 @@ public class List {
 
     public static void main(String[] args) {
         List li = new List();
+
         System.out.println(Arrays.toString(li.a));
-        for (int i = 0; i < 10; i++) {
-            li.insert(42+i);
-        }
-        System.out.println(Arrays.toString(li.a));
+
         li.remove(2);
+
         System.out.println(Arrays.toString(li.a));
-    }
+        System.out.println(Arrays.toString(li.a));
+
+        for (int i = 0; i < 10; i++) {
+
+            li.insert(42+i);
+
+        }
+
+        System.out.println(Arrays.toString(li.a));
+
+        li.remove(2);
+
+        System.out.println(Arrays.toString(li.a));
+
+
+
+
+}
+
 
     void insert(int value) {
         for (int i = 0; i < a.length; i++) {
@@ -35,6 +52,24 @@ for(int i = index; i<a.length-1;i++)
     a[a.length-1]=0;
 
 }
+boolean isEmpty(){
+    if(a[0]==0){
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+boolean isFull(){
+        if (a[a.length-1]==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+}
+
     }
 
 
