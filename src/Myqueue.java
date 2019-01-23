@@ -7,7 +7,7 @@ public class Myqueue {
     public Myqueue(){
         size=10;
         total=0;
-        front=-1;
+        front=0;
         rear=-1;
         q=new int[size];
     }
