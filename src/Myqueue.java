@@ -12,3 +12,5 @@ public class Myqueue {
         q=new int[size];
     }
 }
+
+
