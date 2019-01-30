@@ -7,7 +7,7 @@ public class Arrays1 {
    Object[] orr=new Object[10];
         System.out.println(orr[0]);
         Student[] students=new Student[47];
-
+        for(Student students : students){
 
         }
     }
