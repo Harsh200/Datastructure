@@ -1,6 +1,16 @@
 public class Arrays2 {
     public static void main(String[] args) {
+        // now we are implementing
+        Student[] studentArray;
+        int bottom;
+        Arrays2(int numberOfStudent){
+            studentArray=new Student[numberOfStudent];
+            bottom=-1;
+        }
         Student student =new Student();
+        student.setRollno(1);
+        student.setName("Bablu");
+        System.out.println(student);
   /*      student.name="GUDDU";
         student.rollno=123;
         Student[] students=new Student[47];
@@ -28,6 +38,9 @@ public String getName() {
 }
 public void setRollno(int rollno){
 this.rollno=rollno;
+}
+public void setName(String name){
+     this.name=name;
 }
 
     @Override
