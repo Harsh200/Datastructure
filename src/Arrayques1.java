@@ -9,3 +9,8 @@ public class Arrayques1 {
         }
     }
 }
+/* syntax of for loop
+for(int i:arr)
+System.out.println(i)
+arr.for
+ */
