@@ -1,5 +1,6 @@
+/*
 import java.util.Date;
-public class Datearray {
+public class Datearray{
 
         public static void main(String[] args) {
             Date [] array=new Date[10];
@@ -12,3 +13,4 @@ public class Datearray {
         }
     }
 
+*/
